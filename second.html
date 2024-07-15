@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Event Registration Form</h2>
+
+<form action="/action_page.php">
+ <Fieldset>
+  <legend>Personal Information</legend>
+  <label for="fname">Full Name:</label>
+  <input type="text" id="fname" name="fname" ><br>
+  <label for="email">Email Address:</label>
+  <input type="text" id="Email" name="Email"><br>
+  <label for="number">Phone Number:</label>
+  <input type="text" id="number" name="number">
+ </Fieldset>
+</form> 
+<fieldset>
+  <legend>Event Details</legend>
+  <label for="event">Event Name:</label>
+  <input type="text" id="event" name="event"><br>
+  <label for="datemax">Event Date:</label>
+  <input type="date" id="datemax" name="datemax"><br>
+  <label for="event">Event Location:</label>
+  <input type="text" id="event" name="event">
+</fieldset>
+<fieldset>
+  <legend>Ticket Selection</legend>
+  <label>Choose Ticket Type:</label><br>
+  <input type="radio" name="standart" id="standart">
+  <label for="standart">Standart</label><br>
+  <input type="radio" id="vip" name="vip">
+  <label for="vip">Vip</label><br>
+  <label for="quantity">Quantity:</label>
+  <input type="text" id="quantity" name="quantity">
+</fieldset>
+<fieldset>
+  <legend>Dietary Preferences</legend>
+  <label>Do you have any dietary preferences?</label>
+  <input type="checkbox " id="vegeterian" name="vegeterian">
+  <label for="vegeterian">Vegeterian</label><br>
+  <input type="checkbox" id="vegan" name="vegan">
+  <label for="vegan">Vegan</label><br>
+  <input type="checkbox" id="gluten" name="gluten">
+  <label for="gluten">Gluten-Free</label><br>
+</fieldset>
+<p>Additional Comments:</p>
+<form action="/action_page.php">
+  <textarea name="message" rows="5" cols="70"></textarea>
+  <br>
+<input type="checkbox" id="sentence" name="sentence">
+<label for="sentence">I agree to the terms and conditions</label><br>
+<input type="submit" value="register" >
+</form>
+</body>
+</html>
+ 

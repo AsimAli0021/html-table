@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<form action="/action_page.php"></form>
+<fieldset>
+    <legend>Personal Information</legend>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="age"> Age:</label>
+    <input type="text" id="age" name="age" size="5"><br>
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+</fieldset>
+<fieldset>
+    <legend>Contract Information</legend>
+    <label for="email">Email Address:</label>
+    <input type="text" id="email" name="email"><br>
+    <label for="password">Password:</label>
+    <input type="text" id="password" name="password"><br>
+    <label for="cntry">Country:</label>
+    <select> id="country" name="country">
+        <option value="france">France</option>
+        <option value="europa">Europa</option>
+        <option value="germany">Germany</option>
+    </select>
+</fieldset>
+<fieldset>
+    <legend>Address Information</legend>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address"><br>
+    <label for="city">City</label>
+    <input type="text" id="city" name="city"><br>
+    <label for="code">Postal Code</label>
+    <input type="text" id="code" name="code"><br>
+    <label for="number">Phone Number:</label>
+    <input type="text" id="number" name="number">
+</fieldset>
+<p>Additional Comments:</p>
+<form action="/action_page.php">
+  <textarea name="message" rows="5" cols="70"></textarea>
+  <br>
+<input type="checkbox" id="sentence" name="sentence">
+<label for="sentence">I agree to the terms and conditions</label><br>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
